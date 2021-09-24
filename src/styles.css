@@ -1,9 +1,6 @@
 body {
   font-family: sans-serif;
 }
-* {
-  /* list-style: none; */
-}
 input {
   padding: 6px 16px;
   margin: 0 10px;
@@ -35,11 +32,13 @@ button:hover {
   background-color: #c6ffe2;
   width: 400px;
   min-height: 200px;
+  padding-bottom: 20px;
 }
 .complete-area {
   background-color: #ffffe0;
   width: 400px;
   min-height: 200px;
+  padding-bottom: 20px;
 }
 .list-row {
   display: flex;
