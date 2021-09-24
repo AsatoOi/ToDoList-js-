@@ -1,3 +1,50 @@
 body {
   font-family: sans-serif;
 }
+* {
+  /* list-style: none; */
+}
+input {
+  padding: 6px 16px;
+  margin: 0 10px;
+}
+h2 {
+  padding: 6px 16px 0;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+}
+li {
+  margin-left: 20px;
+  height: 45px;
+}
+button {
+  height: 30px;
+}
+button:hover {
+  cursor: pointer;
+}
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 50px;
+}
+
+.incomplete-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+}
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+}
+.list-row button {
+  margin-left: 10px;
+}
